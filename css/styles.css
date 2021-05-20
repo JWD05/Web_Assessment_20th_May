@@ -1,0 +1,17 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.header_main {
+    margin-left:45%;
+    /* text-align: center; */
+
+}
+.enquiry { 
+    
+    background-color: rgb(227, 240, 243) ;
+}
+.bg-info {
+    background-color: rgb(222, 238, 236) !important;
+}
