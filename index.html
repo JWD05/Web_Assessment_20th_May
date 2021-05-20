@@ -14,11 +14,11 @@
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand fs-4" href="#"><img style="width: 8rem" src="./images/logo.jpg"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+          <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> -->
+            <!-- <span class="navbar-toggler-icon"></span>
+          </button> -->
+          <div class="d-md-flex justify-content-start navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav" data-spy="scroll">
               <li class="nav-item">
                 <a class="nav-link active fs-5" aria-current="page" href="#cars">Cars</a>
               </li>
@@ -41,41 +41,41 @@
     <section>
       <div class="container mt-5" id="cars">
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
-          <div class="col"><div class="card" style="width: 18rem;">
-            <img src="./images/car5.jpg" style="border-top-left-radius:10%; border-top-right-radius:10%; border-bottom-left-radius:10%;" class="card-img-top" alt="A black Chevrolet Camaro">
+          <div class="col"><div class="card" style="width: 15rem;">
+            <img src="./images/car5.jpg" style="border-top-left-radius:10%; border-top-right-radius:10%; border-bottom-left-radius:10%;  min-width:25%; overflow:hidden;" class="card-img-top img-fluid" alt="A black Chevrolet Camaro">
             <div class="card-body">
-              <h5 class="card-title">Vintage Chevy Camaro</h5>
-              <p class="card-text">Goes for ever, built like a tank.</p>
+              <h6 class="card-title">Vintage Chevy Camaro</h6>
+              <p class="card-text">Go forever, built like a tank.</p>
               <a href="#" class="btn btn-primary">Car details</a>
             </div>
           </div></div>
-          <div class="col"><div class="card" style="width: 18rem;">
-            <img src="./images/car6.jpg" style="border-top-left-radius:10%; border-top-right-radius:10%; border-bottom-left-radius:10%;" class="card-img-top " alt="A vintage Ford Mustang">
+          <div class="col"><div class="card" style="width: 15rem;">
+            <img src="./images/car6.jpg" style="border-top-left-radius:10%; border-top-right-radius:10%; border-bottom-left-radius:10%; minmax(275px, 400px); height:auto; display:block; overflow:hidden;" class="card-img-top img-fluid" alt="A vintage Ford Mustang">
             <div class="card-body">
-              <h5 class="card-title">Vintage Ford Mustang</h5>
+              <h6 class="card-title">Vintage Ford Mustang</h6>
               <p class="card-text">Feel the raw power.</p>
               <a href="#" class="btn btn-primary">Car details</a>
             </div>
           </div></div>
-          <div class="col"><div class="card" style="width: 18rem;">
-            <img src="./images/car3.jpg" style="border-top-left-radius:10%; border-top-right-radius:10%; border-bottom-left-radius:10%;" class="card-img-top" alt="A chocolate brown Jaguar E-type Cabrio">
+          <div class="col"><div class="card" style="width: 15rem;">
+            <img src="./images/car3.jpg" style="border-top-left-radius:10%; border-top-right-radius:10%; border-bottom-left-radius:10%; min-width:25%; overflow:hidden;" class="card-img-top img-fluid" alt="A chocolate brown Jaguar E-type Cabrio">
             <div class="card-body">
-              <h5 class="card-title">Vintage Jaguar E-Type</h5>
+              <h6 class="card-title">Vintage Jaguar E-Type</h6>
               <p class="card-text">Marvel the engineering.</p>
               <a href="#" class="btn btn-primary">Car details</a>
             </div>
           </div></div>
-          <div class="col"><div class="card" style="width: 18rem;">
-            <img src="./images/car4.jpg" style="border-top-left-radius:10%; border-top-right-radius:10%; border-bottom-left-radius:10%;" class="card-img-top" alt="Good Old Volkswagen Beetle">
+          <div class="col"><div class="card" style="width: 15rem;">
+            <img src="./images/car4.jpg" style="border-top-left-radius:10%; border-top-right-radius:10%; border-bottom-left-radius:10%; min-width:25%; overflow:hidden;" class="card-img-top img-fluid " alt="Good Old Volkswagen Beetle">
             <div class="card-body">
-              <h5 class="card-title">Old Reliable Beetle</h5>
+              <h6 class="card-title">Old Reliable Beetle</h6>
               <p class="card-text">Unsquashable bug.</p>
               <a href="#" class="btn btn-primary">Car details</a>
             </div>
           </div></div>
         </div>
         <div class="row row-cols-1 mt-1 ms-1 "  id="enquiries">
-          <form style="background-color: rgb(185, 234, 234)">
+          <form style="background-color: rgb(216, 221, 221)">
             <p class="fs-4 mt-1">Enquire about a car</p>
             <div class="mb-3">
               <label for="TextInput" class="form-label">Full Name</label>
@@ -115,8 +115,7 @@
           <footer><p>Copyright &#169UB. All rights reserved 2021</p></footer>
         </div>        
       </div>
-    </section>
-    
+    </section>   
     
 </body>
 </html>
